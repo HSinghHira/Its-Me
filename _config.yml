@@ -96,5 +96,5 @@ deploy:
   type: git
   repo: https://github.com/HSinghHira/Its-Me.git
   branch: page
-  message: "Last Update: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  message: "Last Update: {{ now('MM-DD HH:mm:ss') }}"
   cname: me.hsinghhira.me
