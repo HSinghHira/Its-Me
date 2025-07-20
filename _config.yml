@@ -97,3 +97,4 @@ deploy:
   repo: https://github.com/HSinghHira/Its-Me.git
   branch: page
   message: "Last Update: {{ now('YYYY-MM-DD HH:mm:ss') }}"
+  cname: me.hsinghhira.me
