@@ -14,3 +14,4 @@ README.md
 _bridge.yml
 bun.lockb
 /bun.lockb
+.gitignore

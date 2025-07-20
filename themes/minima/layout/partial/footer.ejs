@@ -10,8 +10,7 @@
       <% } %>
     </p>
   </div>
-
-  <div class="four columns posisi" style="text-align: right;">
+  <div class="four columns posisi footer-toggle-container">
     <div class="footer-toggle-wrapper">
       <div onclick="setDarkMode(true)" id="darkBtn" class="svg-hov">
         <%= theme.switch_dark %>
@@ -23,3 +22,66 @@
   </div>
   <% } %>
 </div>
+
+<style>
+  /* Footer mobile fixes - keep everything inline */
+  @media (max-width: 549px) {
+
+    /* Adjust column widths for mobile to fit inline */
+    .mt-2.row .eight.columns {
+      width: 70% !important;
+      margin-left: 0 !important;
+    }
+
+    .mt-2.row .four.columns {
+      width: 30% !important;
+      margin-left: 0 !important;
+    }
+
+    /* Ensure proper alignment */
+    .footer-toggle-container.posisi {
+      text-align: right !important;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+
+    /* Make text smaller on mobile to fit better */
+    #madewith {
+      margin: 0 !important;
+    }
+  }
+
+  /* Ensure toggle buttons stay inline and compact */
+  .footer-toggle-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Prevent text wrapping issues */
+  #madewith {
+    margin: 0 !important;
+    word-wrap: break-word;
+  }
+
+  /* Even smaller screens - adjust proportions */
+  @media (max-width: 400px) {
+    .mt-2.row .eight.columns {
+      width: 65% !important;
+    }
+
+    .mt-2.row .four.columns {
+      width: 35% !important;
+    }
+
+    .footer-toggle-wrapper {
+      gap: 6px;
+    }
+
+    /* Make toggle buttons slightly smaller on very small screens */
+    .footer-toggle-wrapper .svg-hov {
+      transform: scale(0.9);
+    }
+  }
+</style>
