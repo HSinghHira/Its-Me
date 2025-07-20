@@ -1,0 +1,38 @@
+<script>
+  (function() {
+    const theme = localStorage.getItem("preferredTheme");
+    if (theme === "dark" || !theme) {
+      document.body.classList.add("darkmode");
+    }
+  })();
+</script>
+<script src="/js/code-toggle.js"></script>
+
+<div class="row">
+  <div class="nine columns">
+    <h1 class="mt-2">
+      <%= theme.title %>
+    </h1>
+  </div>
+
+  <div class="twelve columns">
+    <div class="row">
+      <div class="left nine columns">
+        <a href="/" class="">/intro</a>
+        <% for (name in theme.menu) { %>
+        <% if (theme.menu[name]) { %>
+        <a href="<%- url_for(theme.menu[name]) %>" class="ml"><%- name %></a>
+        <% } %>
+        <% } %>
+        <% if (theme.email) { %>
+        <% if (typeof obfuscate==="function" ) { %>
+        <a href="mailto:<%- obfuscate(theme.email) %>" target="_blank" class="ml">Email</a>
+        <% } else { %>
+        <a href="mailto:<%= theme.email %>" target="_blank" class="ml">Email</a>
+        <% } %>
+        <% } %>
+      </div>
+    </div>
+    <hr style="margin-bottom: 2.6rem">
+  </div>
+</div>

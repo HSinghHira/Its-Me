@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <% if (!config.author) { config.author="" } var title=title=config.title; if (is_archive()) { title='All Posts - ' +
+    config.author; } else if (is_post()) { title=page.title; } else if (is_page()) { title=page.title + ' - ' +
+    config.author; } else if (is_tag()) { title='Posts Related to ' + page.tag; } %>
+  <title>
+    <%= title %>
+  </title>
+  <% if (config.sitemap) { %>
+  <link rel="sitemap" href="<%- config.url + config.sitemap.path %>" />
+  <% } %>
+
+  <link rel="canonical" href="<%= url.replace(/index\.html$/, '').replace(/index\.html$/, '') %>" />
+
+  <% if (is_page()) { %>
+  <meta name="description" content="<%= page.description %>" />
+  <% } else if (page.content) { %>
+  <meta name="description" content="<%= strip_html(page.content).replace(/\n/g, " ").replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+  <% } else { %>
+  <meta name="description" content="<%= config.description %>" />
+  <% } %>
+
+  <% if (config.keywords) { %>
+  <meta name="keywords" content="<%= config.keywords %>" />
+  <% } %>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:site_name" content="<%= config.title %>" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="<%= title %>" />
+  <% if (is_page()) { %>
+  <meta property="og:description" content="<%= page.description %>" />
+  <% } else if (page.content) { %>
+  <meta property="og:description" content="<%= strip_html(page.content).replace(/\n/g, " ").replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+  <% } else { %>
+  <meta property="og:description" content="<%= config.description %>" />
+  <% } %>
+  <meta property="og:url" content="<%= url.replace(/index\.html$/, '').replace(/index\.html$/, '') %>" />
+  <meta property="og:image" content="https://dynamic-og-image-generator.vercel.app/api/generate?title=<%- encodeURIComponent(title) %>&author=Harman+Singh+Hira&websiteUrl=https%3A%2F%2Fme.hsinghhira.me&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F11346694&theme=github">
+
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="<%= title %>" />
+  <% if (is_page()) { %>
+  <meta name="twitter:description" content="<%= page.description %>" />
+  <% } else if (page.content) { %>
+  <meta name="twitter:description" content="<%= strip_html(page.content).replace(/\n/g, " ").replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
+  <% } else { %>
+  <meta name="twitter:description" content="<%= config.description %>" />
+  <% } %>
+  <meta name="twitter:url" content="<%= url.replace(/index\.html$/, '').replace(/index\.html$/, '') %>" />
+  <meta name="twitter:image" content="https://dynamic-og-image-generator.vercel.app/api/generate?title=<%- encodeURIComponent(title) %>&author=Harman+Singh+Hira&websiteUrl=https%3A%2F%2Fme.hsinghhira.me&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F11346694&theme=github">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Preload Fonts -->
+  <link rel="preload" href="../fonts/dm-serif-display-v4-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="../fonts/inter-v2-latin-regular.woff2" as="font" type="font/woff2" crossorigin />
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/css/remixicon.css" />
+  <%- css('css/normalize.css') %>
+  <%- css('css/skeleton.css') %>
+  <%- css('css/custom.css') %>
+  <%- css('css/prism-dark.css') %>
+  <%- css('css/prism-line-numbers.css') %>
+  <% if (theme.usercss) { %>
+  <%- css(theme.usercss) %>
+  <% } %>
+
+  <link rel="icon" type="image/png" href="<%- theme.favicon %>" />
+
+  <%- partial('partial/tcolor') %>
+  <%- partial('partial/google_analytics') %>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div>
+        <%- partial('partial/header') %>
+        <div class="trans">
+          <%- body %>
+          <%- partial('partial/footer') %>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="<%- theme.nanobar %>"></script>
+  <script>
+    var options = {
+      classname: "nanobar",
+      id: "myNanobar",
+    };
+    var nanobar = new Nanobar(options);
+    nanobar.go(30);
+    nanobar.go(76);
+    nanobar.go(100);
+  </script>
+  <script src="<%= url_for('/js/themetoggle.js') %>"></script>
+</body>
+
+</html>

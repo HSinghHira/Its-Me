@@ -1,0 +1,64 @@
+title: "me@hsinghhira.me ~ $"
+
+owner: "Hi there! 👋"
+info: >
+  Welcome to my super cool corner of the internet! 🌐✨ <br><br> I'm <b>Harman Singh Hira</b> but most people call me by my last name, Hira 💎
+desc: >
+  So, I was born in Chandigarh, India 🇮🇳 but in my early 20s, I made the big move to the beautiful island of New Zealand 🇳🇿.
+  I finished all my studies back home, then added a diploma in Business Management & Leadership here just to keep things spicy 🎓✨
+  <br><br>
+
+  Now rewind to when I was 15... while most of my friends were busy gaming 🎮, I was that one kid messing around with code 💻.
+  I started building websites, making templates, and yep, even sold a few for some decent cash 💸.
+  Also had a tech blog that actually made money through Google AdSense at just 16! Crazy right? 🤯
+  Oh, and fun fact: I never studied IT in school. Everything I know? Self-taught. YouTube + curiosity = the real MVPs 🤝📺
+  <br><br>
+
+  After moving to NZ, life got a bit busy. I had a full-time job (not in tech, more like pizza deliveries 🍕🚗) and study life.
+  So coding kind of took a pause. But I realized I missed it. Like, a lot.
+  It's my kind of therapy: just me, the screen, and vibes 💡✨
+  Started learning again, built some random tools (including some I totally regret, don't ask 😅), and got back into the groove.
+  <br><br>
+
+  These days, I'm still deep-diving into all things tech, even though I work in a completely different industry.
+  Why not full-time dev work? Tbh, the moment coding feels like work instead of fun, I lose all motivation 💀.
+  I like building stuff on my own terms — when it's fun, not forced.
+  <br><br>
+
+  Right now, I'm happily married (wife's literally sitting next to me as I type this 😄💍), love binge-watching movies 🎬, exploring new places ✈️, learning random things 🧠, and yeah... FOOD.
+  Huge foodie here 🍜 and not to brag, but I'm kinda decent in the kitchen too 👨‍🍳🔥
+  <br><br>
+
+  Anyway, that's a lil' peek into my story.
+  Thanks for stopping by!
+  <br><br>
+
+  Cheers 🥂
+
+menu:
+  /blog: /blog
+  /works: /works
+  /contact: /contact
+
+max_post: 4
+
+tcolor: 0FA0CE
+
+usercss:
+
+footer: true
+placename: Aotearoa
+placelink: https://en.wikipedia.org/wiki/Aotearoa
+
+nanobar: /js/nanobar.min.js
+switch_light: ☀️
+switch_dark: 🌜
+
+favicon: /images/favicon.png
+thumbnail:
+
+article:
+  thumbnail: false
+
+disqus_enabled: false
+disqus_shortname:
