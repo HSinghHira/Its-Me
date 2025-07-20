@@ -9,7 +9,7 @@
     "server": "hexo server",
     "do": "hexo clean && hexo g && hexo s",
     "git": "git add -A && git commit -m 'Building' && git push",
-    "push": "npm run git && hexo deploy"
+    "push": "npm run git && npm run deploy"
   },
   "hexo": {
     "version": "7.3.0"
