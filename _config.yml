@@ -80,11 +80,6 @@ include:
 exclude:
 ignore:
 
-live_reload:
-  delay: 0
-  info: true
-  retry: 3000
-
 all_minifier: true
 html_minifier: true
 css_minifier: true
@@ -98,3 +93,17 @@ deploy:
   branch: page
   message: "Last Update: {{ now('MM-DD HH:mm:ss') }}"
   cname: me.hsinghhira.me
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
