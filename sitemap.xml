@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://me.hsinghhira.me/contact/index.html</loc>
+    
+    <lastmod>2025-07-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://me.hsinghhira.me/Website-for-Apple-s-iOS-Shortcuts/</loc>
     
     <lastmod>2025-07-20</lastmod>
@@ -56,15 +65,6 @@
   </url>
   
   <url>
-    <loc>http://me.hsinghhira.me/contact/index.html</loc>
-    
-    <lastmod>2025-07-20</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://me.hsinghhira.me/blog/index.html</loc>
     
     <lastmod>2025-07-19</lastmod>
@@ -85,7 +85,7 @@
 
   <url>
     <loc>http://me.hsinghhira.me/</loc>
-    <lastmod>2025-07-21</lastmod>
+    <lastmod>2025-07-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,7 +93,7 @@
   
   <url>
     <loc>http://me.hsinghhira.me/tags/Works/</loc>
-    <lastmod>2025-07-21</lastmod>
+    <lastmod>2025-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -102,7 +102,7 @@
   
   <url>
     <loc>http://me.hsinghhira.me/categories/Works/</loc>
-    <lastmod>2025-07-21</lastmod>
+    <lastmod>2025-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
