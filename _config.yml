@@ -101,13 +101,10 @@ feed:
   category_dir: "category"
   rss:
     enable: true
-    template: "themes/theme/layout/_alternate/rss.ejs"
     output: "rss.xml"
   atom:
     enable: true
-    template: "themes/theme/layout/_alternate/atom.ejs"
     output: "atom.xml"
   jsonFeed:
     enable: true
-    template: "themes/theme/layout/_alternate/json.ejs"
     output: "feed.json"
