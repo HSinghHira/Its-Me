@@ -1,30 +1,35 @@
 <?xml version="1.0"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
-    <id>http://me.hsinghhira.me</id>
-    <title>Harman Singh Hira</title>
-    <link href="http://me.hsinghhira.me" />
-    <updated>2025-07-21T06:03:16.000Z</updated>
-    <category term="Works" />
-    <entry>
-        <id>http://me.hsinghhira.me/Website-for-Apple-s-iOS-Shortcuts/</id>
-        <title>Website for Apple&#39;s iOS Shortcuts</title>
-        <link rel="alternate" href="http://me.hsinghhira.me/Website-for-Apple-s-iOS-Shortcuts/"/>
-        <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/20250720_180559_iOS_Shortcuts.png&#34; alt=&#34;Website for Apple&amp;#39;s iOS Shortcuts&#34;&gt;&lt;/p&gt;
+<rss version="2.0">
+    <channel>
+        <title>Harman Singh Hira</title>
+        <link>http://me.hsinghhira.me</link>
+        <description></description>
+        <language>en</language>
+        <pubDate>Mon, 21 Jul 2025 18:03:16 +1200</pubDate>
+        <lastBuildDate>Mon, 21 Jul 2025 18:03:16 +1200</lastBuildDate>
+        <category>Works</category>
+        <item>
+            <guid isPermalink="true">http://me.hsinghhira.me/Website-for-Apple-s-iOS-Shortcuts/</guid>
+            <title>Website for Apple&#39;s iOS Shortcuts</title>
+            <link>http://me.hsinghhira.me/Website-for-Apple-s-iOS-Shortcuts/</link>
+            <category>Works</category>
+            <pubDate>Mon, 21 Jul 2025 18:03:16 +1200</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;/assets/20250720_180559_iOS_Shortcuts.png&#34; alt=&#34;Website for Apple&amp;#39;s iOS Shortcuts&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Visit: &lt;a href=&#34;https://ios.hsinghhira.me/&#34;&gt;https://ios.hsinghhira.me/&lt;/a&gt; 📱&lt;/p&gt;
 &lt;p&gt;Hey there, tech enthusiasts! 📱 Today, I want to share with you another exciting story from my journey as a developer. This time, it’s all about creating a static website using the powerful Google Custom Search script for searching Apple’s iOS Shortcuts. So, buckle up and get ready to dive into the world of web development!&lt;/p&gt;
 &lt;p&gt;When I embarked on this project, my goal was clear: to create a website with a simple design that would provide an efficient way to search for Apple’s iOS Shortcuts. I opted for a straightforward design without delving too much into complex CSS. The result? A website that wasn’t bad looking, but perhaps not the most visually striking. 😅&lt;/p&gt;
 &lt;p&gt;Creating this website turned out to be an incredibly easy project, thanks to the magic of Google Custom Search. All I had to do was add the iOS Shortcut directories’ websites to the Google Custom Search dashboard, and voila! The script provided a seamless search experience for users on my webpage. It was a breeze! 💨&lt;/p&gt;
 &lt;p&gt;If you’re curious to explore the website I created, you can click on the link below. Go ahead and give it a try! Who knows, you might discover some amazing iOS Shortcuts that will make your Apple device even more powerful and efficient. 🚀&lt;/p&gt;
 &lt;p&gt;So, if you’re in need of finding iOS Shortcuts or simply want to explore the world of Apple’s shortcuts, feel free to check out the website. Happy searching, and may your Apple device become even more amazing with the power of iOS Shortcuts! 📱✨&lt;/p&gt;
-</content>
-        <category term="Works" />
-        <updated>2025-07-21T06:03:16.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://me.hsinghhira.me/Muerte-KOD-AIO-PUBG-Mobile-Toolkit-Windows-Software/</id>
-        <title>Muerte KOD - AIO PUBG Mobile Toolkit - Windows Software</title>
-        <link rel="alternate" href="http://me.hsinghhira.me/Muerte-KOD-AIO-PUBG-Mobile-Toolkit-Windows-Software/"/>
-        <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/20250720_180215_Muerte_KOD_FuPLOH4Lu9.png&#34; alt=&#34;Muerte KOD - AIO PUBG Mobile Toolkit - Windows Software&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://me.hsinghhira.me/Muerte-KOD-AIO-PUBG-Mobile-Toolkit-Windows-Software/</guid>
+            <title>Muerte KOD - AIO PUBG Mobile Toolkit - Windows Software</title>
+            <link>http://me.hsinghhira.me/Muerte-KOD-AIO-PUBG-Mobile-Toolkit-Windows-Software/</link>
+            <category>Works</category>
+            <pubDate>Sun, 20 Jul 2025 17:59:56 +1200</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;/assets/20250720_180215_Muerte_KOD_FuPLOH4Lu9.png&#34; alt=&#34;Muerte KOD - AIO PUBG Mobile Toolkit - Windows Software&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Download: &lt;a href=&#34;https://github.com/HSinghHira/MuerteKOD/releases&#34;&gt;https://github.com/HSinghHira/MuerteKOD/releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hey there, once again but this time for my fellow gamers! 🎮 Today, I want to share with you a thrilling story about a unique project I undertook called Muerte KOD. Brace yourself for a tale of intrigue, innovation, and a touch of darkness!&lt;/p&gt;
 &lt;p&gt;But First, What on Earth is Muerte KOD? 😯❓&lt;/p&gt;
@@ -34,15 +39,15 @@
 &lt;p&gt;Muerte KOD, with its name meaning “death” or “murder” in English, added an extra layer of intrigue to this exhilarating journey. Although the software aimed to enhance gameplay through various tools like MAC address spoofing, Defender Injector, Flush DNS, Advanced DNS Changer, HDD ID Changer, and more, it’s important to note that it was all within the realm of legality. No rules were broken, I promise! 😉🔒&lt;/p&gt;
 &lt;p&gt;While Muerte KOD stands as my first and, for now, my last software endeavor using Microsoft Visual Studio, I cherish the experience and the knowledge gained along the way. It serves as a testament to the limitless possibilities that await us in the realm of game enhancement.&lt;/p&gt;
 &lt;p&gt;So, fellow gamers, keep exploring, keep innovating, and let’s continue to push the boundaries of what we can achieve in the world! Game on! 🎮🌟&lt;/p&gt;
-</content>
-        <category term="Works" />
-        <updated>2025-07-20T05:59:56.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://me.hsinghhira.me/Pizza-Dough-Expiry-Date-Tagger-MS-Excel-VBA/</id>
-        <title>Pizza Dough Expiry Date Tagger - MS Excel VBA</title>
-        <link rel="alternate" href="http://me.hsinghhira.me/Pizza-Dough-Expiry-Date-Tagger-MS-Excel-VBA/"/>
-        <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/20250720_175658_dough-tagger.png&#34; alt=&#34;Pizza Dough Expiry Date Tagger - MS Excel VBA&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://me.hsinghhira.me/Pizza-Dough-Expiry-Date-Tagger-MS-Excel-VBA/</guid>
+            <title>Pizza Dough Expiry Date Tagger - MS Excel VBA</title>
+            <link>http://me.hsinghhira.me/Pizza-Dough-Expiry-Date-Tagger-MS-Excel-VBA/</link>
+            <category>Works</category>
+            <pubDate>Sun, 20 Jul 2025 17:53:19 +1200</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;/assets/20250720_175658_dough-tagger.png&#34; alt=&#34;Pizza Dough Expiry Date Tagger - MS Excel VBA&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Download: &lt;a href=&#34;https://github.com/HSinghHira/Dominos-Pizza-Dough-Tagger/releases&#34;&gt;https://github.com/HSinghHira/Dominos-Pizza-Dough-Tagger/releases&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hey there, folks! 🍕 Today, I want to share with you an incredible story from my time working at Domino’s Pizza. It all started with a simple task: putting dough tags on newly made dough batches. It was a crucial health and safety requirement, and I hope they still follow it. But little did I know that this experience would lead me down a rabbit hole of Excel wonders. 🎩💻&lt;/p&gt;
 &lt;p&gt;One day, during a not-so-busy shift, I couldn’t help but notice that the dough tags we were using weren’t exactly visually appealing. You know, they lacked that wow factor. 🤔 So, when I got home, I decided to fire up Excel on my laptop to see if I could create better-looking tags. A quick Google search for inspiration, and voila! I had some good-looking tags ready to go. 🏷️🌟&lt;/p&gt;
@@ -54,15 +59,15 @@
 &lt;p&gt;So there you have it, my extraordinary Excel adventure at Domino’s Pizza. Who would have thought that a simple task like dough tags would lead me down the path of Excel wizardry? 🌟✨&lt;/p&gt;
 &lt;p&gt;Never underestimate the power of a curious mind and the vast capabilities of Microsoft Excel. Remember, with a little creativity and the right tools, you can build a whole new software-like system right within Excel itself. 🚀💻&lt;/p&gt;
 &lt;p&gt;Stay curious, keep exploring, and who knows what other wonders await us in the world of spreadsheets! 🌈📊&lt;/p&gt;
-</content>
-        <category term="Works" />
-        <updated>2025-07-20T05:53:19.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://me.hsinghhira.me/Meme-Creator-PHP-Based/</id>
-        <title>Meme Creator - PHP Based</title>
-        <link rel="alternate" href="http://me.hsinghhira.me/Meme-Creator-PHP-Based/"/>
-        <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/20250720_172606_dekh-bhai-meme-creator.png&#34; alt=&#34;Meme Creator - PHP Based&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://me.hsinghhira.me/Meme-Creator-PHP-Based/</guid>
+            <title>Meme Creator - PHP Based</title>
+            <link>http://me.hsinghhira.me/Meme-Creator-PHP-Based/</link>
+            <category>Works</category>
+            <pubDate>Sun, 20 Jul 2025 15:05:07 +1200</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;/assets/20250720_172606_dekh-bhai-meme-creator.png&#34; alt=&#34;Meme Creator - PHP Based&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Okay this is kinda funny… but yep, I actually made &lt;em&gt;another&lt;/em&gt; Dekh Bhai Meme Creator back in 2016 😂&lt;/p&gt;
 &lt;p&gt;It was school days, Dekh Bhai memes were popping off in India, and apparently I couldn’t get enough of them. So I built a second version — because why not?&lt;/p&gt;
 &lt;p&gt;I already talked about the first one in my older blog post (built with good ol’ JavaScript), but this time I decided to switch things up and write the whole thing in PHP 💻🐘&lt;/p&gt;
@@ -73,15 +78,15 @@
 &lt;li&gt;Simple PHP file Github Gist: &lt;a href=&#34;https://gist.github.com/HSinghHira/7094b6285aa017def77e664c75230975&#34;&gt;https://gist.github.com/HSinghHira/...&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Full PHP Script: &lt;a href=&#34;https://github.com/HSinghHira/Dekh-Bhai-Meme-Creator/&#34;&gt;https://github.com/HSinghHira/Dekh-Bhai-Meme-Creator/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</content>
-        <category term="Works" />
-        <updated>2025-07-20T03:05:07.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://me.hsinghhira.me/Meme-Creator-JS-Based/</id>
-        <title>Meme Creator - JS Based</title>
-        <link rel="alternate" href="http://me.hsinghhira.me/Meme-Creator-JS-Based/"/>
-        <content type="html">&lt;p&gt;&lt;img src=&#34;/assets/20250720_144302_dekh-bhai.png&#34; alt=&#34;Meme Creator - JS Based&#34;&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://me.hsinghhira.me/Meme-Creator-JS-Based/</guid>
+            <title>Meme Creator - JS Based</title>
+            <link>http://me.hsinghhira.me/Meme-Creator-JS-Based/</link>
+            <category>Works</category>
+            <pubDate>Sun, 20 Jul 2025 13:59:47 +1200</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;img src=&#34;/assets/20250720_144302_dekh-bhai.png&#34; alt=&#34;Meme Creator - JS Based&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Back in 2016, before I moved to New Zealand 🇳🇿, I decided to challenge myself with a lil’ side project 💻.&lt;/p&gt;
 &lt;p&gt;At the time, &lt;em&gt;“Dekh Bhai”&lt;/em&gt; memes were EVERYWHERE in India — if you know, you know 😎.&lt;/p&gt;
 &lt;p&gt;(&lt;em&gt;Dekh Bhai&lt;/em&gt; &amp;#x3D; “Look, brother” for my non-desi friends 👀🧔)&lt;/p&gt;
@@ -103,15 +108,15 @@
 &lt;p&gt;Of course, holding all this together was good ol’ jQuery v2.1.0. A classic. Can’t forget the OG 💾💙&lt;/p&gt;
 &lt;p&gt;Moral of the story? I started small, learned a ton, and had a blast building something people could actually use (and laugh at 😄).&lt;/p&gt;
 &lt;p&gt;Still one of my fav beginner projects to date 💯&lt;/p&gt;
-</content>
-        <category term="Works" />
-        <updated>2025-07-20T01:59:47.000Z</updated>
-    </entry>
-    <entry>
-        <id>http://me.hsinghhira.me/AWS-Cloud-Practitioner-Practice-Quiz-JS-Based/</id>
-        <title>AWS Cloud Practitioner Practice Quiz - JS Based</title>
-        <link rel="alternate" href="http://me.hsinghhira.me/AWS-Cloud-Practitioner-Practice-Quiz-JS-Based/"/>
-        <content type="html">&lt;p&gt;Hey there, fellow learners! 🌟 Today, I want to share with you an awesome AWS Cloud Practitioner Practice Quiz that I created while I was learning AWS Cloud Engineering. 🚀 It’s not super fancy, but I made sure to keep it simple and easy to understand. Let’s dive in and have some fun while testing our knowledge!&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">http://me.hsinghhira.me/AWS-Cloud-Practitioner-Practice-Quiz-JS-Based/</guid>
+            <title>AWS Cloud Practitioner Practice Quiz - JS Based</title>
+            <link>http://me.hsinghhira.me/AWS-Cloud-Practitioner-Practice-Quiz-JS-Based/</link>
+            <category>Works</category>
+            <pubDate>Mon, 20 May 2024 17:47:07 +1200</pubDate>
+            <description><![CDATA[ &lt;p&gt;Hey there, fellow learners! 🌟 Today, I want to share with you an awesome AWS Cloud Practitioner Practice Quiz that I created while I was learning AWS Cloud Engineering. 🚀 It’s not super fancy, but I made sure to keep it simple and easy to understand. Let’s dive in and have some fun while testing our knowledge!&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/assets/20250720_174941_aws.png&#34; alt=&#34;AWS Cloud Practitioner Practice Quiz - JS Based&#34;&gt;&lt;/p&gt;
 &lt;p&gt;View Live Preview: &lt;a href=&#34;https://quiz.hsinghhira.me/AWS-Cloud-Practitioner/&#34;&gt;https://quiz.hsinghhira.me/AWS-Cloud-Practitioner/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This quiz may not have all the bells and whistles, but it has all the essential features you’d expect from any quiz website. 🎯 Here’s what you can expect:&lt;/p&gt;
@@ -122,8 +127,7 @@
 &lt;p&gt;For the visual styling, I employed the popular CSS framework called Bootstrap v5.1.0. 🎨 This helped me quickly achieve a clean and professional look without spending too much time on the aesthetics. And of course, what’s a quiz without some icons? I used the awesome Font Awesome Icons to give the quiz a touch of visual appeal. 🌟&lt;/p&gt;
 &lt;p&gt;I must admit, this quiz was a bit of a rush project. So, while I didn’t spend a lot of time on its looks, I made sure it works perfectly and offers you plenty of options to enhance your learning experience. 📚&lt;/p&gt;
 &lt;p&gt;I hope you find this quiz both educational and enjoyable. Give it a try, challenge yourself, and let’s see how well you know your AWS Cloud Practitioner knowledge! Remember, learning can be fun too! 🌈📚💡&lt;/p&gt;
-</content>
-        <category term="Works" />
-        <updated>2024-05-20T05:47:07.000Z</updated>
-    </entry>
-</feed>
+ ]]></description>
+        </item>
+    </channel>
+</rss>
