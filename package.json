@@ -18,6 +18,7 @@
     "add": "^2.0.6",
     "hexo": "^7.3.0",
     "hexo-all-minifier": "^0.5.7",
+    "hexo-analytics": "^0.1.1",
     "hexo-deployer-git": "^4.0.0",
     "hexo-external-link": "^1.0.9",
     "hexo-feed": "^1.1.2",
@@ -34,7 +35,6 @@
     "hexo-robots": "^1.0.1",
     "hexo-seo": "^2.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-shiki-plugin": "^1.0.27",
     "hexo-tag-embed": "^1.0.0"
   },
   "devDependencies": {

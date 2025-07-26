@@ -37,22 +37,14 @@ post_asset_folder: true
 relative_link: false
 future: true
 
-highlight:
-  enable: false
-prismjs:
-  enable: false
+highlight: false
+prismjs: false
+syntax_highlighter: "shiki"
+
 shiki:
-  theme: github-light # highlight-theme
-  line_number: true # whether to show the line_number
-  beautify: false # whether to add highlight tool true or false
-  highlight_copy: true # copy button
-  highlight_lang: false # show the code language
-  highlight_height_limit: 360 # code-block max height,unit: px
-  is_highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
-  copy: # copy message
-    success: "Copy Success"
-    error: "Copy Error"
-    no_support: "Browser Not Support"
+  themes:
+    dark: "github-dark"
+    light: "github-light"
 
 index_generator:
   path: ""
@@ -201,3 +193,11 @@ cdn:
   native: false # use cloudflare native image resize
   max_width:
   exclude_domains:
+
+analytics:
+  google_analytics:
+    enable: true
+    measurement_id: G-GJF7D1TVGG
+  microsoft_clarity:
+    enable: true
+    project_id: skvnh9ncl9
