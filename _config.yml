@@ -1,11 +1,11 @@
 # Site
 title: Harman Singh Hira
 subtitle: "Just another coder I guess..."
-description: ""
-keywords:
+description: "Welcome to my personal blog where I share my thoughts on coding, technology, and life."
+keywords: Harman Singh Hira, hsinghhira, hsinghhira.me, blog, personal blog, hexo, hexo theme minima
 author: Harman Singh Hira
 language: en
-timezone: ""
+timezone: "Auckland, New Zealand"
 url: http://me.hsinghhira.me/
 root: /
 permalink: :title/
@@ -89,10 +89,10 @@ deploy:
 
 lazyload:
   enable: true
-  onlypost: false # optional
-  loadingImg: # optional eg ./images/loading.gif
-  isSPA: false # optional
-  preloadRatio: 3 # optional, default is 1
+  onlypost: false
+  loadingImg: # /images/loading.gif
+  isSPA: false
+  preloadRatio: 3
 
 feed:
   limit: 20
@@ -109,7 +109,6 @@ feed:
     enable: true
     output: "feed.json"
 
-# SEO Plugin Configuration (hexo-seo)
 seo:
   html:
     enable: true
@@ -157,3 +156,7 @@ seo:
   feed:
     type: [page, post]
     icon: "https://w7.pngwing.com/pngs/745/306/png-transparent-gallery-image-images-photo-picture-pictures-set-app-incredibles-icon-thumbnail.png"
+
+generator_amp:
+  templateDir:  amp-template
+  assetDistDir: amp-dist
