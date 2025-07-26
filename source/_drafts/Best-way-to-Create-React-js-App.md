@@ -1,14 +1,27 @@
 ---
 title: Best way to Create React.js App
-date: 2024-05-20 17:47:07
 tags:
   - Blog
-categories: [Blog]
+categories:
+  - Blog
+date: 2024-05-20 17:47:07
 ---
 
-{% blockquote [author[, source]] [link] [source_link_title] %}
-content
-{% endblockquote %}
-{% codeblock [title] [lang:language] [url] [link text] [additional options] %}
-code snippet
-{% endcodeblock %}
+```js
+function greet() {
+  console.log("Hello, Hexo with Shiki!");
+}
+greet();
+```
+
+This is a Test
+
+This is a Test
+
+This is a Test
+
+This is a Test
+
+This is a Test
+
+This is a Test

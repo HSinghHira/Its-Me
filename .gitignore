@@ -16,3 +16,6 @@ bun.lockb
 /bun.lockb
 .gitignore
 /.deploy_git
+data
+/data
+/tmp

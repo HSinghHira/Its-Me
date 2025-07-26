@@ -23,13 +23,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
-# Sitemap
-sitemap:
-  path: /sitemap.xml
-  rel: false
-  tags: true
-  categories: true
-
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -52,7 +45,7 @@ highlight:
   hljs: false
 prism_plugin:
   mode: "preprocess" # Or 'raw'
-  theme: "tomorrow" # You can change to: default, okaidia, twilight, etc.
+  theme: "tomorrow"
   line_number: false
   copy_button: true
   tab_replace: ""
@@ -94,6 +87,13 @@ deploy:
   message: "Last Update: {{ now('MM-DD HH:mm:ss') }}"
   cname: me.hsinghhira.me
 
+lazyload:
+  enable: true
+  onlypost: false # optional
+  loadingImg: # optional eg ./images/loading.gif
+  isSPA: false # optional
+  preloadRatio: 3 # optional, default is 1
+
 feed:
   limit: 20
   order_by: "-date"
@@ -108,3 +108,52 @@ feed:
   jsonFeed:
     enable: true
     output: "feed.json"
+
+# SEO Plugin Configuration (hexo-seo)
+seo:
+  html:
+    enable: true
+    fix: true
+    exclude:
+      - "*.min.{htm,html}"
+  css:
+    enable: true
+    exclude:
+      - "**/*.min.css"
+  js:
+    enable: true
+    concat: false
+    exclude:
+      - "**/*.min.js"
+    options:
+      compress:
+        dead_code: true
+      mangle:
+        toplevel: true
+        safari10: true
+  schema:
+    article:
+      enable: true
+    breadcrumb:
+      enable: true
+    sitelink:
+      enable: true
+    homepage:
+      enable: true
+  img:
+    enable: true
+    broken: false
+    default: https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg
+    onerror: serverside
+  links:
+    enable: true
+    exclude:
+      - hsinghhira.me
+  sitemap:
+    yoast: true
+    gnews: true
+  search:
+    type: ["page", "post"]
+  feed:
+    type: [page, post]
+    icon: "https://w7.pngwing.com/pngs/745/306/png-transparent-gallery-image-images-photo-picture-pictures-set-app-incredibles-icon-thumbnail.png"
