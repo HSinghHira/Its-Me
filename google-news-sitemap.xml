@@ -34,6 +34,17 @@
     </news:news>
   </url>
   <url>
+    <loc>http://me.hsinghhira.me/Meme-Creator-PHP-Based/</loc>
+    <news:news>
+      <news:publication>
+        <news:language>en</news:language>
+        <news:name>Unknown Author</news:name>
+      </news:publication>
+      <news:title>Meme Creator - PHP Based</news:title>
+      <news:publication_date>2025-07-20T15:05:07+12:00</news:publication_date>
+    </news:news>
+  </url>
+  <url>
     <loc>http://me.hsinghhira.me/Meme-Creator-JS-Based/</loc>
     <news:news>
       <news:publication>
@@ -53,17 +64,6 @@
       </news:publication>
       <news:title>AWS Cloud Practitioner Practice Quiz - JS Based</news:title>
       <news:publication_date>2024-05-20T17:47:07+12:00</news:publication_date>
-    </news:news>
-  </url>
-  <url>
-    <loc>http://me.hsinghhira.me/Meme-Creator-PHP-Based/</loc>
-    <news:news>
-      <news:publication>
-        <news:language>en</news:language>
-        <news:name>Unknown Author</news:name>
-      </news:publication>
-      <news:title>Meme Creator - PHP Based</news:title>
-      <news:publication_date>2025-07-20T15:05:07+12:00</news:publication_date>
     </news:news>
   </url>
 </urlset>
