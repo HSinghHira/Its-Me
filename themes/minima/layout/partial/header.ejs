@@ -7,6 +7,9 @@
   })();
 </script>
 <script src="/js/code-toggle.js"></script>
+<% if (is_post() && config.generator_amp){ %>
+<link rel="amphtml" href="<%= config.url %><%= config.root %><%= page.path %>/amp/index.html">
+<% } %>
 
 <div class="row">
   <div class="nine columns">
